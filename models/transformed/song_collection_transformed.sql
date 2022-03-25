@@ -1,0 +1,1 @@
+select * from {{ ref('song_collection_features') }}

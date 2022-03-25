@@ -1,6 +1,15 @@
 
 version: 2
 
+sources:
+  - name: ARTIST_RAW
+    database: MUSICMESH_ARTIST_DEV
+    schema: ADF_SOURCE
+    tables: 
+      - name: SONG_DETAILS
+      - name: SPOTIFY_FEATURES_PYTHON
+
+
 models:
     - name: my_first_dbt_model
       description: "A starter dbt model"
